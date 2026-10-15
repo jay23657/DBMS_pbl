@@ -2,6 +2,9 @@
 
 This project is a relational database management system built for a Police Station to track complaints, officers, investigation activities, evidence, and custody logs. 
 
+## 📹 Video Presentation
+- **Presentation & Demo Link**: [Google Drive Video Presentation](https://drive.google.com/drive/folders/17LBJrhSpOq3McUwLoAsSTsSQykfUngDV)
+
 ## Features
 - **Normalized Relational Database (3NF)**: Covers Complaints, Persons, Officers, Assignments, Activities, Evidence, Custody, Witnesses, Court, Charges, and Statuses.
 - **Constraints & Business Rules Enforced**: Unique IDs, proper foreign key cascades, date validations, checking complete custody transfers, closure detail requirements.
@@ -42,3 +45,4 @@ If your MySQL root password is not `password`, you will need to update the envir
 - **Review 1**: The ER diagram is implicitly represented via the comprehensive DDL provided in `schema.sql`.
 - **Review 2**: The normalized database design (up to 3NF) with constraints, data insertion, and queries (demonstrated in `app.py`).
 - **Review 3**: The Streamlit application written in Python (`app.py`), connected to the database to handle case management, reporting, error handling, and CRUD operations.
+- **Review 4 / Presentation**: [Video Presentation Link](https://drive.google.com/drive/folders/17LBJrhSpOq3McUwLoAsSTsSQykfUngDV)
